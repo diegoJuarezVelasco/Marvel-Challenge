@@ -1,0 +1,25 @@
+.heroes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+.display-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-description{
+    text-align: center;
+    color: #333333;
+    margin: 10px 0;
+    padding: 30px;
+    line-height: 21px;
+    font-size: 18px;
+}
+.hero-img-md {
+    width: 121px;
+    border-radius: 50%;
+}
